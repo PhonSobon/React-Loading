@@ -23,7 +23,7 @@ function Loading() {
                 </p>
                 <div className="d-flex justify-content-between">
                     <Placeholder.Button size="sm" variant="primary" xs={4} />
-                    <Placeholder.Button size="sm" variant="success" xs={4} />
+                    <Placeholder.Button size="sm" variant="warning" xs={4} />
                 </div>
             </div>
         </div>
