@@ -1,4 +1,5 @@
 
+import { Placeholder } from "react-bootstrap";
 import React from "react";
 
 function Loading() {
@@ -20,7 +21,10 @@ function Loading() {
                 <span class="placeholder col-6"></span>
                 <span class="placeholder col-8"></span>
                 </p>
-                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                <div className="d-flex justify-content-between">
+                    <Placeholder.Button size="sm" variant="primary" xs={4} />
+                    <Placeholder.Button size="sm" variant="success" xs={4} />
+                </div>
             </div>
         </div>
     );
