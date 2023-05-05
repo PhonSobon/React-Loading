@@ -13,7 +13,7 @@ import Navbar from './components/Navbar';
 function App() {
 
     const limit = 20;
-    const [data, setData] = useState([]);
+    const [data] = useState([]);
     const [data2, setData2] = useState([]);
 
     useEffect(() => {
@@ -62,7 +62,7 @@ function App() {
                     </Row>
                 </section>
 
-                <hr/>
+           
 
               
         </div>
